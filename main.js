@@ -106,7 +106,7 @@ sendMsg.addEventListener("click",function(){
     let k=document.createElement("a");
     let enteredMsg = msg.value;
     codedMsg = encodeURI(enteredMsg);
-    let aValue="https://wa.me/201159175049?text=hi%20khaled%20%i%60am%20interested%20in%20your%20services%20in%20web%20development%20"+codedMsg;
+    let aValue="https://wa.me/201159175049?text=hi%20khaled%20i%60am%20interested%20in%20your%20services%20in%20web%20development%20"+codedMsg;
     k.setAttribute("href",aValue);
     k.click();
 });
